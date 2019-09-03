@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Emblema+One|Uncial+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 body{
 background-image: url(img/bg.png);
 background-size: 100%;
@@ -14,10 +15,11 @@ background-size: 100%;
      
 }
 .navbar-brand{
-    font-size:3.3vw !important;
+    font-size:5vw !important;
     padding: 0.5rem 1px;
     margin-right: 0px !important;
-    font-family: 'Uncial Antiqua', cursive;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
     
 }
  
@@ -218,6 +220,7 @@ strong.headline-with-separator, .headline-with-separator {
 }
 .category-small-box:hover i{
     color:rgb(255, 174, 0) !important;
+    border: 6px dashed rgb(255, 174, 0);
 }
 
 
@@ -272,17 +275,18 @@ strong.headline-with-separator, .headline-with-separator {
 .category-small-box i {
     color: white !important;
     transition: 0.3s;
-    font-size: 50px;
-    height: 40px;
-
+    text-align: center;
+    font-size: 65px;
+    height: 120px;
+    width: 130px;
+    border: 6px dashed white;
+    border-radius: 50%;
     display: inline-block;
+    padding: 20px;
     margin-top: 10px;
 }
 
-.fav1 {
-    margin-top:50px important; 
-    
-}
+ 
 .fav2{
     margin-top:20px;
 }
