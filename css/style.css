@@ -197,18 +197,18 @@ strong.headline-with-separator, .headline-with-separator {
     flex-wrap: wrap;
 }
 .category-small-box{
-    background-color:rgb(255, 174, 0); 
+    background-color:transparent; 
 }
 
 
 .category-small-box:hover{
-    background-color:  white;
+    background-color:  transparent;
     color: rgb(226, 217, 196) ;
     text-decoration: none;
 }
 .category-small-box h4 {
     font-size: 15px !important;
-    color:white !important;
+    color:rgb(255, 174, 0) !important;
     transition: 1s;
     line-height: 22px;
     margin-top: 9px;
@@ -219,8 +219,8 @@ strong.headline-with-separator, .headline-with-separator {
     
 }
 .category-small-box:hover i{
-    color:rgb(255, 174, 0) !important;
-    border: 6px dashed rgb(255, 174, 0);
+    color:rgb(255, 166, 0) !important;
+    border: 6px dashed  rgb(255, 166, 0);
 }
 
 
@@ -242,10 +242,10 @@ strong.headline-with-separator, .headline-with-separator {
 	float: left;
 	
 	border-radius: 4px;
-	margin: 20px 0 0 20px;
-	padding:20px 25px;
+	margin: 0 0 0 20px;
+	padding:20px 20px;
 	text-align: center;
-	color:white;
+	color:rgb(255, 174, 0);
 	transition: 0.4s;
 	transform: scale(1);
 	vertical-align: top;
@@ -273,13 +273,13 @@ strong.headline-with-separator, .headline-with-separator {
     margin-bottom: 7px;
 }
 .category-small-box i {
-    color: white !important;
+    color: rgb(255, 174, 0) !important;
     transition: 0.3s;
     text-align: center;
     font-size: 65px;
     height: 120px;
     width: 130px;
-    border: 6px dashed white;
+    border: 6px dashed rgb(255, 174, 0);
     border-radius: 50%;
     display: inline-block;
     padding: 20px;
