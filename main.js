@@ -4,20 +4,19 @@ document.querySelector("#register-form").addEventListener("submit" , function(e)
      submitRegister()
  })
 
-
-
-
-var firebaseConfig = {
-    apiKey: "AIzaSyCagNNf5lwNF6SXL6iuetjN3w9mwLxZM7k",
-    authDomain: "gkm-register.firebaseapp.com",
-    databaseURL: "https://gkm-register.firebaseio.com",
-    projectId: "gkm-register",
-    storageBucket: "",
-    messagingSenderId: "329425332352",
-    appId: "1:329425332352:web:3dff9187ce029e2b"
-};
-  // Initialize Firebase
-firebase.initializeApp(firebaseConfig)
+ 
+ // Your web app's Firebase configuration
+ var firebaseConfig = {
+   apiKey: "AIzaSyDUZqdwFefl8S8eifCcUDFTudLKNH3Zg2k",
+   authDomain: "gkmcet-mecarnival.firebaseapp.com",
+   databaseURL: "https://gkmcet-mecarnival.firebaseio.com",
+   projectId: "gkmcet-mecarnival",
+   storageBucket: "",
+   messagingSenderId: "746057816953",
+   appId: "1:746057816953:web:933f6398faf97e58"
+ };
+ // Initialize Firebase
+ firebase.initializeApp(firebaseConfig);
 
 
 let database = firebase.database()
