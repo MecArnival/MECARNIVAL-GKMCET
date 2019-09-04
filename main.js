@@ -43,7 +43,7 @@ function submitRegister(){
     ref.push(data)
     ref.push(selected)
   {
-    alert("sucessfull register");
+    alert("your entry has been registed successfully");
     }
 }
 
