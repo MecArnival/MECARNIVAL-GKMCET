@@ -206,6 +206,7 @@ strong.headline-with-separator, .headline-with-separator {
     color: rgb(226, 217, 196) ;
     text-decoration: none;
 }
+
 .category-small-box h4 {
     font-size: 15px !important;
     color:rgb(255, 174, 0) !important;
@@ -351,6 +352,27 @@ h3.heading {
     height:200;
     width: 200;
     border: 2px solid white;
+}
+.loco{
+    font-size: 50px;
+    animation: color 3s infinite ;
+}
+@keyframes color{
+0%{
+    color:rgb(255, 174, 0); 
+}
+50%{
+    color:#c0c0c0;
+}
+100%{
+    color:rgb(255, 174, 0);
+}
+}
+.fab{
+color:rgb(255, 174, 0);
+font-size: 30px;
+
+
 }
  
   

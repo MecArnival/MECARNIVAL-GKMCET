@@ -63,7 +63,7 @@
           <button type="button" id="myButton" class="btn btn-primary" onclick="location.href='index1.html';">REGISTER NOW</button>
 
         </div></center>
-        <hr>
+        <ad>
         <script type="text/javascript">
         $(document).ready(function(){
     setTimeout(function() {
@@ -93,7 +93,25 @@
       modal.style.display = "none";
     }
   }
-  
+document.addEventListener("backbutton", onBackKeyDown, false);
+function onBackKeyDown() {
+    //Retrieve app's history
+    var history = App.getHistory();
+ 
+    //Check that there's only one screen in history (the current one):
+    if ( history.length === 1 ) {
+        //Check that this element is the default (home) screen:
+        var history_screen = history[0];
+        if ( TemplateTags.getDefaultRouteLink().replace('#','') === history_screen.fragment ) {
+            //Only one element in history and this element is default screen: exit app on back button:
+            navigator.app.exitApp();
+            return;
+        }
+    }
+ 
+    //History has at least one previous element: just go back to it:
+    navigator.app.backHistory();
+}
 
 
 
@@ -122,7 +140,7 @@
                    <a href="#popup1"class="category-small-box active">
                       <i class="fas fa-file-powerpoint"></i> 
                     <h4>PAPER PRESENTATION</h4>
-                    <span class="category-box-counter">12</span>
+                    <span class="category-box-counter">230</span>
                     </a> 
                     <div id="popup1" class="overlay">
                       <div class="popup">
@@ -146,7 +164,7 @@
                   <a href="#popup2" class="category-small-box">
                       <i class="fas fa-laptop"></i>
                     <h4>MR.CAD</h4>
-                    <span class="category-box-counter">32</span>
+                    <span class="category-box-counter">132</span>
                   </a>
                   <div id="popup2" class="overlay">
                     <div class="popup">
@@ -160,7 +178,7 @@
                   <a href="#popup3" class="category-small-box">
                       <i class="fas fa-cogs"></i>
                       <h4>MR MANUFACTURER</h4>
-                      <span class="category-box-counter">32</span>
+                      <span class="category-box-counter">220</span>
                     </a>
                     <div id="popup3" class="overlay">
                         <div class="popup">
@@ -180,7 +198,7 @@
                     <a href="#popup4" class="category-small-box">
                         <i class="fas fa-car-crash"></i>
                         <h4>RC CAR</h4>
-                        <span class="category-box-counter">32</span>
+                        <span class="category-box-counter">70</span>
                       </a>
                       <div id="popup4" class="overlay">
                           <div class="popup">
@@ -198,7 +216,7 @@
                   <a href="#popup5" class="category-small-box">
                     <i class="fas fa-question-circle"></i>
                     <h4>TECHNICAL QUIZ</h4>
-                    <span class="category-box-counter">11</span>
+                    <span class="category-box-counter">540</span>
                   </a>
                   <div id="popup5" class="overlay">
                       <div class="popup">
@@ -217,7 +235,7 @@
                   <a href="#popup6" class="category-small-box">
                       <i class="fas fa-rocket"></i>
                     <h4>HYDRO-ROCKETRY</h4>
-                    <span class="category-box-counter">15</span>
+                    <span class="category-box-counter">150</span>
                   </a>
                   <div id="popup6" class="overlay">
                       <div class="popup">
@@ -240,7 +258,7 @@
                   <a href="#popup7" class="category-small-box">
                     <i class="fas fa-brain"></i>
                     <h4>GENERAL-QUIZ</h4>
-                    <span class="category-box-counter">21</span>
+                    <span class="category-box-counter">210</span>
                   </a>
                   <div id="popup7" class="overlay">
                       <div class="popup">
@@ -262,7 +280,7 @@
                     <i class="fas fa-scroll"></i>
                     
                     <h4>ESSAY</h4>
-                    <span class="category-box-counter">28</span>
+                    <span class="category-box-counter">189</span>
                   </a>
                   <div id="popup8" class="overlay">
                       <div class="popup">
@@ -283,7 +301,7 @@
                   <a href="#popup9" class="category-small-box">
                       <i class="fas fa-drafting-compass"></i>
                       <h4>DRAWING</h4>
-                      <span class="category-box-counter">28</span>
+                      <span class="category-box-counter">300</span>
                     </a>
                     <div id="popup9" class="overlay">
                         <div class="popup">
@@ -314,31 +332,28 @@
                                               <h3 class="heading">Contact </h3>
                                               <div class="heading-underline"></div>
                                           </div>
-                                          <div class="text-widget">
+                                          < class="text-widget">
                                                   
                                             
-                                                  <h2><b>MEC-ARNIVAL</b></h2> 
+                                                  <h2><b>MEC-ARNIVAL</b></h2>  
+
                                                   <span>GKM COLLEGE OF ENGINEERING AND TECHNOLOGY<br/>
+                                                   <a href="https://www.google.co.in/maps/place/GKM+College+of+Engineering+%26+Technology/@12.8950463,80.1196892,17z/data=!3m1!4b1!4m5!3m4!1s0x3a525f35258148db:0xd8cfaec8ba759f99!8m2!3d12.8950463!4d80.1218779"> <i class="fas fa-map-marker-alt loco"></i></a><br/>
+<address> 
                                                       GKM Nagar,Perungalathur<br/>
                                                        
                                                       Chennai – 600 063 </span><br/>
                                                       Phone: <span> +91 7550151520 </span><br>
-                                                      E-Mail:<span> <a href="#"></a> </span><br>
-                                                   
-                                                   
-                                                  <a class="btn1" href="#"><i <i class="fab fa-google"></i></a>
-                                                  <a class="btn1" href="#"><i <i class="fab fa-instagram"></i></a>
-                                            <hr class="socket">
-                                                  <br>
-                                                  < 
-                                                   
-                                                  &copy;Copyright 2019 @ mecarnival.github.io/MECARNIVAL-GKMCET. All rights reserved.
-                                                </div>
+                                                      E-Mail:<span> <a href="mailto:bimalk41@gmail.com">bimalk41@gmail.com</a> </span><br>
+</address>
+
+
+                                    <a href="https://instagram.com/mec_arnival2k19?igshid=zeeb5kys8c8k"><i class="fab fa-instagram"></i></a>
+                                             
                                   </div>
                               </div>
               </footer>
               </div>
-            -->
             </div>
           </div>
        <!-- <ul class="bubbles">
