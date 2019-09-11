@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
 .input{
     width: 90%;
     background: transparent;
@@ -40,20 +44,6 @@
   width: 10px;
   height: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 input{
     height: 45px;
 
@@ -83,6 +73,7 @@ body{
     
 }
 .coner h1{
+    font-family: 'Titillium Web', cursive;
     font-size: 30px;
     margin-top:100px;
     padding: 0 0 20px;
@@ -92,12 +83,13 @@ body{
 
 }
 form{
-   
+    font-family: 'Acme', sans-serif;
     margin-top:50px;
     transition: all 4s  ease-in;
 }
 .custom-radio{
     margin: 20px;
+    font-family: 'Acme', sans-serif;
 }
 .custom-radio h5{
     top: -30px !important;
@@ -110,9 +102,12 @@ form{
     transition: all 4s ease-in-out;
 }
 h2{
+    font-family: 'Acme', sans-serif;
     text-align: left;
+    text-transform: uppercase;
 }
-.container {
+.container {  
+    font-family: 'Acme', sans-serif;
     display: block;
     position: relative;
     padding-left: 0;
@@ -140,7 +135,7 @@ h2{
   .checkmark {
     position: absolute;
     top: 0;
-    left: 12%;
+    left: 9%;
     height: 25px;
     width: 25px;
     background-color: #eee;

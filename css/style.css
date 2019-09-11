@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Emblema+One|Uncial+Antiqua&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
 body{
 background-image: url(img/bg.png);
 background-size: 100%;
@@ -203,7 +204,7 @@ strong.headline-with-separator, .headline-with-separator {
 
 .category-small-box:hover{
     background-color:  transparent;
-    color: rgb(226, 217, 196) ;
+    color: rgb(255, 145, 0) ;
     text-decoration: none;
 }
 
@@ -277,9 +278,9 @@ strong.headline-with-separator, .headline-with-separator {
     color: rgb(255, 174, 0) !important;
     transition: 0.3s;
     text-align: center;
-    font-size: 65px;
+    font-size: 60px;
     height: 120px;
-    width: 130px;
+    width: 120px;
     border: 6px dashed rgb(255, 174, 0);
     border-radius: 50%;
     display: inline-block;
@@ -355,7 +356,7 @@ h3.heading {
 }
 .loco{
     font-size: 50px;
-    animation: color 3s infinite ;
+    animation: color 1s infinite ;
 }
 @keyframes color{
 0%{
